@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.th{
+    @apply px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-500 uppercase border-b border-gray-200 bg-gray-50;
+}
+.td_fix{
+    @apply px-6 py-4 border-b border-gray-200 whitespace-nowrap;
+}
+.td_ligne{
+    @apply text-sm font-medium leading-5 text-center border-b border-gray-200 whitespace-nowrap;
+}
